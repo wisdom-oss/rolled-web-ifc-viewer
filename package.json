@@ -1,0 +1,29 @@
+{
+  "name": "rolled-web-ifc-viewer",
+  "version": "1.0.216",
+  "description": "Rolled up version of @IFCjs/web-ifc-viewer",
+  "main": "dist/rolled.web-ifc-viewer.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wisdom-oss/rolled-web-ifc-viewer.git"
+  },
+  "keywords": [
+    "rollup",
+    "rolled",
+    "web-ifc-viewer",
+    "web-ifc"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.1.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "rollup": "^3.21.6"
+  },
+  "dependencies": {
+    "three": "^0.135.0",
+    "web-ifc-viewer": "^1.0.216"
+  }
+}

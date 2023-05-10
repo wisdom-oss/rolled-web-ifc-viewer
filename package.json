@@ -1,5 +1,5 @@
 {
-  "name": "rolled-web-ifc-viewer",
+  "name": "@wisdom-oss/rolled-web-ifc-viewer",
   "version": "1.0.216",
   "description": "Rolled up version of @IFCjs/web-ifc-viewer",
   "main": "dist/rolled.web-ifc-viewer.js",
